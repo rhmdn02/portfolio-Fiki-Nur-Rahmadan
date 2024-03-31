@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffa6a6;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px; /* Sesuaikan ukuran lebar */
+    height: auto; /* Biarkan tinggi mengikuti proporsi asli gambar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.login-button,
+.search-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 6px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+
+input[type="text"]::placeholder {
+    color: #fff;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 80px; /* Ubah ukuran logo untuk layar kecil */
+    }
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: #ffa6a6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 100px; /* Sesuaikan ukuran lebar logo */
+    height: auto;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    margin-right: 10px
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+.content-tentang {
+    padding: 20px 0;
+}
+
+.container-tentang {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    text-align: center;
+    margin: 20px;
+}
+
+.member img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.content-kontak {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-kontak {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
